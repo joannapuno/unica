@@ -3,19 +3,39 @@
   .header-container {
       padding: 20px;
   }
-  .menu li {
-      margin-right: 50px;
+
+
+  .top-menu {
+      .search-bar {
+          margin-left: 10px;
+      }
   }
-  .nav-menus {
-      width:100%;
-      background: #75bf4c;
-  }
-  .main-menu {
-      width: 60%;
+  .nav-bar {
+    margin-top: 10px;
+    
+    .nav-menus {
+        width:100%;
+        background: #74bf4c;
+  
+        li {
+          margin-right: 50px;
+          
+          a {
+            color: #fff;
+          }
+      }
+  
+        .main-menu {
+          width: 60%;
+      }
+      
+        .secondary-menu {
+          width:40%;
+      }
+    }
   }
   
-  .seconday-menu {
-      width:40%;
-  }
+  
+  
 
    

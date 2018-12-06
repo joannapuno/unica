@@ -1,5 +1,5 @@
 /* GENERAL */
-a, ul, li {
+ul, li {
   list-style: none;
   margin: 0; }
 
@@ -13,16 +13,19 @@ a, ul, li {
 .header-container {
   padding: 20px; }
 
-.menu li {
-  margin-right: 50px; }
+.top-menu .search-bar {
+  margin-left: 10px; }
 
-.nav-menus {
-  width: 100%;
-  background: #75bf4c; }
-
-.main-menu {
-  width: 60%; }
-
-.secondary-menu {
-  width: 40%; }
-
+.nav-bar {
+  margin-top: 10px; }
+  .nav-bar .nav-menus {
+    width: 100%;
+    background: #74bf4c; }
+    .nav-bar .nav-menus li {
+      margin-right: 50px; }
+      .nav-bar .nav-menus li a {
+        color: #fff; }
+    .nav-bar .nav-menus .main-menu {
+      width: 60%; }
+    .nav-bar .nav-menus .secondary-menu {
+      width: 40%; }
