@@ -10,14 +10,19 @@ ul, li {
 
 /* HEADER */
 /* Menu */
-.header-container {
-  padding: 20px; }
-
-.top-menu .search-bar {
-  margin-left: 10px; }
+.top-menu {
+  width: 40%;
+  margin-top: 20px; }
+  .top-menu .search-bar {
+    margin-left: 10px; }
 
 .nav-bar {
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: 30px; }
+  .nav-bar .logo-container {
+    width: 150px; }
+    .nav-bar .logo-container img {
+      width: 100%; }
   .nav-bar .nav-menus {
     width: 100%;
     background: #74bf4c; }
