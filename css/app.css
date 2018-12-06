@@ -1,5 +1,5 @@
 /* GENERAL */
-ul, li {
+a, ul, li {
   list-style: none;
   margin: 0; }
 
@@ -23,5 +23,6 @@ ul, li {
 .main-menu {
   width: 60%; }
 
-.seconday-menu {
+.secondary-menu {
   width: 40%; }
+
