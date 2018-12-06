@@ -17,7 +17,7 @@
     "url": "https://github.com/joannapuno/unica/issues"
   },
   "homepage": "https://github.com/joannapuno/unica#readme",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2"
   }
