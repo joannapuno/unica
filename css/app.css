@@ -32,14 +32,6 @@ a {
 
 .nav-bar {
   margin-top: 10px;
-  margin-left: 30px;
-  position: relative; }
-  .nav-bar .logo-container {
-    width: 150px;
-    margin-right: 10px; }
-    .nav-bar .logo-container img {
-      width: 100%; }
-  .nav-bar .nav-menus {
   margin-left: 30px; }
 
 .logo-container {
@@ -47,17 +39,18 @@ a {
   margin-right: 10px; }
   .logo-container img {
     width: 100%; }
-  .logo-container .nav-menus {
-    width: 100%;
-    background: #74bf4c; }
-    .logo-container .nav-menus li {
-      margin-right: 30px; }
-      .logo-container .nav-menus li a {
-        color: #fff; }
-    .logo-container .nav-menus .main-menu {
-      width: 60%; }
-    .logo-container .nav-menus .secondary-menu {
-      width: 40%; }
+
+.nav-menus {
+  width: 100%;
+  background: #75bf4c; }
+  .nav-menus li {
+    margin-right: 30px; }
+  .nav-menus a {
+    color: #fff; }
+  .nav-menus .main-menu {
+    width: 60%; }
+  .nav-menus .secondary-menu {
+    width: 40%; }
 
 .print-header {
   display: none; }
