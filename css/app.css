@@ -78,6 +78,10 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
     height: 200px;
     background-size: cover;
     background-position: center; }
+  .blog-container a {
+    color: #a26000; }
+  .blog-container h5 {
+    margin-top: 50px; }
 
 #contact-page {
   text-align: center;
