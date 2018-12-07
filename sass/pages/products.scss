@@ -1,0 +1,46 @@
+.product-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.product1 {
+    background-image: url('../images/pillow.jpg');
+}
+.product2 {
+    background-image: url('../images/pots.jpg');
+    background-position: right;
+}
+.product3 {
+    background-image: url('../images/generic_decor.jpg');
+}
+.product {
+    margin-top: 70px;
+    background: #fff;
+    padding: 15px 20px;
+    color: $main-color;
+    box-shadow: 0px 1px 5px 0px #acacac;
+
+    h2 {
+        font-weight: 100;
+    }
+}
+.share-icons i {
+    margin-left: 10px;
+    color: $accent-color;
+}
+.product-summary {
+    margin-top: 25px;
+    color: $secondary-color;
+}
+.product-summary h4 {
+    color: $main-color;
+    font-weight: 100;
+}
+#small-home-decor {
+    font-family: $main-type;
+}
+.subtitle h1 {
+    font-size: 4em;
+    font-weight: 100;
+    color: $main-color;
+}

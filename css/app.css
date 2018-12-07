@@ -9,15 +9,20 @@ ul, li {
   max-width: 1200px; }
 
 /* HEADER */
-/* Menu */
-.header-container {
-  padding: 20px; }
-
-.top-menu .search-bar {
-  margin-left: 10px; }
+/* Desktop Menu */
+.top-menu {
+  width: 40%;
+  margin-top: 20px; }
+  .top-menu .search-bar {
+    margin-left: 10px; }
 
 .nav-bar {
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: 30px; }
+  .nav-bar .logo-container {
+    width: 150px; }
+    .nav-bar .logo-container img {
+      width: 100%; }
   .nav-bar .nav-menus {
     width: 100%;
     background: #74bf4c; }
@@ -29,3 +34,72 @@ ul, li {
       width: 60%; }
     .nav-bar .nav-menus .secondary-menu {
       width: 40%; }
+
+.hero-container {
+  height: 100vh;
+  background: url(../images/pots.jpg);
+  background-size: cover; }
+
+.product-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center; }
+
+.product1 {
+  background-image: url("../images/pillow.jpg"); }
+
+.product2 {
+  background-image: url("../images/pots.jpg");
+  background-position: right; }
+
+.product3 {
+  background-image: url("../images/generic_decor.jpg"); }
+
+.product {
+  margin-top: 70px;
+  background: #fff;
+  padding: 15px 20px;
+  color: #75bf4c;
+  box-shadow: 0px 1px 5px 0px #acacac; }
+  .product h2 {
+    font-weight: 100; }
+
+.share-icons i {
+  margin-left: 10px;
+  color: #ff5c00; }
+
+.product-summary {
+  margin-top: 25px;
+  color: #a26000; }
+
+.product-summary h4 {
+  color: #75bf4c;
+  font-weight: 100; }
+
+#small-home-decor {
+  font-family: "Roboto", sans-serif; }
+
+.subtitle h1 {
+  font-size: 4em;
+  font-weight: 100;
+  color: #75bf4c; }
+
+footer {
+  margin-top: 30px; }
+
+.footer-container .social-icons-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20em; }
+  .footer-container .social-icons-container i {
+    color: #a26000; }
+
+.footer-container .footer-menu {
+  width: 100%;
+  background: #75bf4c; }
+  .footer-container .footer-menu a, .footer-container .footer-menu span {
+    color: #fff; }
+
+.footer-container li {
+  margin-right: 20px; }
