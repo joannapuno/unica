@@ -32,14 +32,6 @@ a {
 
 .nav-bar {
   margin-top: 10px;
-  margin-left: 30px;
-  position: relative; }
-  .nav-bar .logo-container {
-    width: 150px;
-    margin-right: 10px; }
-    .nav-bar .logo-container img {
-      width: 100%; }
-  .nav-bar .nav-menus {
   margin-left: 30px; }
 
 .logo-container {
