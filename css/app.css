@@ -126,11 +126,12 @@ h1 {
   color: #222; }
   .product-summary span {
     font-size: 0.8em;
-    color: #a26000; }
+    color: #ff5c00; }
 
 .product-summary h4 {
   color: #75bf4c;
-  font-weight: 100; }
+  font-weight: 100;
+  margin-bottom: 0; }
 
 #small-home-decor {
   font-family: "Roboto", sans-serif; }

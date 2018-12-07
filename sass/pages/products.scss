@@ -28,12 +28,13 @@
 
     span {
         font-size: 0.8em;
-        color: $secondary-color;
+        color: $accent-color;
     }
 }
 .product-summary h4 {
     color: $main-color;
     font-weight: 100;
+    margin-bottom: 0;
 }
 #small-home-decor {
     font-family: $main-type;
