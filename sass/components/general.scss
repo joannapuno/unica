@@ -6,7 +6,13 @@ ul, li {
 
 a,p,span,h1,h2,h3,h4,h5,h6,body {
     font-family: $main-type;
+    margin:10px;
 }
+
+h1 {
+    margin:10px;
+}
+
   
 .wrapper {
     width: 100%;
