@@ -25,17 +25,22 @@ body {
   background-size: cover;
   background-position: center; }
 
+input {
+  border: #8d8d8d 1px solid;
+  font-size: 0.8em; }
+
 /* HEADER */
 /* Desktop Menu */
 .top-menu {
   width: 40%;
-  margin-top: 20px; }
+  margin-top: 20px;
+  display: flex; }
   .top-menu .search-bar {
     margin-left: 10px; }
 
 .nav-bar {
   margin-top: 10px;
-  margin-left: 30px; }
+  display: flex; }
 
 .logo-container {
   width: 150px;
@@ -45,7 +50,8 @@ body {
 
 .nav-menus {
   width: 100%;
-  background: #75bf4c; }
+  background: #75bf4c;
+  display: flex; }
   .nav-menus li {
     margin-right: 30px; }
   .nav-menus a {
@@ -114,11 +120,19 @@ body {
 #hamburger-button i:hover {
   color: #3f3f3f; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) and (min-width: 400px) {
+  body {
+    text-align: center; }
   .mobile-menu {
     display: block; }
-  .nav-bar, .nav-menus, .main-menu, .secondary-menu {
+  .nav-menus, .top-menu {
     display: none; }
+  .logo-container {
+    width: 30%; }
+  .nav-bar {
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 0 1px 0px 0 #75bf4c; }
   #hamburger-button {
     display: block;
     color: #ff5c00; } }
@@ -176,6 +190,10 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0 150px;
   line-height: 1.2em; }
+
+@media screen and (max-width: 1000px) and (min-width: 400px) {
+  #contact-page .main-content p {
+    padding: 0 20px; } }
 
 .product {
   margin-top: 20px;

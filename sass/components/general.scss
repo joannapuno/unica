@@ -8,7 +8,6 @@ a,p,span,h1,h2,h3,h4,h5,h6,body {
     font-family: $main-type;
     
 }
-
 h1 {
     margin:10px;
 }
@@ -31,4 +30,9 @@ body {
     height: 200px;
     background-size: cover;
     background-position: center;
+}
+
+input {
+    border: rgb(141, 141, 141) 1px solid;
+    font-size: 0.8em;
 }

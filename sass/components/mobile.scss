@@ -57,12 +57,23 @@
     color: #3f3f3f;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:1000px) and (min-width:400px) {
+    body {
+        text-align: center;
+    }
     .mobile-menu {
         display: block;
     }
-    .nav-bar, .nav-menus, .main-menu, .secondary-menu, .top-menu, .search-bar {
+    .nav-menus, .top-menu{
         display: none;
+    }
+    .logo-container {
+        width: 30%;
+    }
+    .nav-bar {
+        padding: 20px;
+        justify-content: space-between;
+        box-shadow: 0 1px 0px 0 $main-color;
     }
     
     #hamburger-button {
@@ -70,3 +81,5 @@
         color: $accent-color;
     }
 }
+
+

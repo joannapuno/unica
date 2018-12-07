@@ -17,3 +17,10 @@
     line-height: 1.2em;
 }
 
+
+@media screen and (max-width:1000px) and (min-width:400px) {
+    #contact-page .main-content p {
+        padding:0 20px;
+    }
+}
+
