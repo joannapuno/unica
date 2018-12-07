@@ -119,7 +119,8 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
   color: #75bf4c; }
 
 footer {
-  margin-top: 70px; }
+  margin-top: 70px;
+  margin-bottom: 20px; }
 
 .footer-container .social-icons-container {
   display: flex;
@@ -131,7 +132,8 @@ footer {
 
 .footer-container .footer-menu {
   width: 100%;
-  background: #75bf4c; }
+  background: #75bf4c;
+  padding: 10px; }
   .footer-container .footer-menu a, .footer-container .footer-menu span {
     color: #fff; }
 
