@@ -4,7 +4,14 @@ ul, li {
   margin: 0; }
 
 a, p, span, h1, h2, h3, h4, h5, h6, body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  margin: 10px; }
+
+h1 {
+  margin: 10px; }
+
+a {
+  color: #ff5c00; }
 
 .wrapper {
   width: 100%;
@@ -67,6 +74,11 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
     background-image: url("../images/artist2.jpg"); }
   .card .artist3 {
     background-image: url("../images/artist3.jpg"); }
+  .card p {
+    color: #222;
+    font-size: 1em; }
+  .card a {
+    font-size: 0.8em; }
 
 .blog-container {
   margin-top: 50px; }
@@ -114,17 +126,21 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
 
 .product-summary {
   margin-top: 25px;
-  color: #a26000; }
+  color: #222; }
+  .product-summary span {
+    font-size: 0.8em;
+    color: #ff5c00; }
 
 .product-summary h4 {
   color: #75bf4c;
-  font-weight: 100; }
+  font-weight: 100;
+  margin-bottom: 0; }
 
 #small-home-decor {
   font-family: "Roboto", sans-serif; }
 
 .subtitle h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 100;
   color: #75bf4c; }
 
@@ -171,7 +187,7 @@ footer {
   margin-bottom: 20px;
   padding: 0 20em; }
   .footer-container .social-icons-container i {
-    color: #a26000; }
+    color: #ff5c00; }
 
 .footer-container .footer-menu {
   width: 100%;
