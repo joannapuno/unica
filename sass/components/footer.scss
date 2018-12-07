@@ -28,3 +28,21 @@ footer {
         margin-right:20px;
     }
 }
+
+@media screen and (max-width: 600px){
+    .footer-menu {
+        font-size: 0.65em;
+    }
+    .footer-container{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .footer-container{
+
+        i {
+            margin-right: 15px;
+        }
+    }
+}

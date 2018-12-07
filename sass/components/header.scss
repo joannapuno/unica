@@ -9,20 +9,20 @@
         margin-left: 10px;
     }
   }
-  .nav-bar {
-    margin-top: 10px;
-    margin-left: 30px;
-    position: relative;
-    
-    
-    .logo-container {
-        width: 150px;
-        margin-right: 10px;
 
-        img {
-            width: 100%;
-        }
-    }
+.nav-bar {
+  margin-top: 10px;
+  margin-left: 30px;
+
+}
+
+.logo-container {
+  width: 150px;
+  margin-right: 10px;
+
+  img {
+      width: 100%;
+}
     
     .nav-menus {
         width:100%;
@@ -46,6 +46,8 @@
       }
     }
   }
+
+.print-header { display: none; }
   
 
   

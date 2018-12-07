@@ -1,0 +1,29 @@
+@media print {
+    .product-image,
+    .card-image,
+    .blog-image,
+    .share-icons i,
+    header,
+    footer {
+        display: none;
+    }
+
+    .print-header {
+        display: flex;
+    }
+
+    a[href^=http]:after {
+        font-style: italic;
+        content: " < " attr(href) " > ";
+        }
+
+    @page {
+        margin: 2cm;
+        }
+
+        body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        }
+}
