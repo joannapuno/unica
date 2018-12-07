@@ -4,7 +4,11 @@ ul, li {
   margin: 0; }
 
 a, p, span, h1, h2, h3, h4, h5, h6, body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  margin: 10px; }
+
+h1 {
+  margin: 10px; }
 
 .wrapper {
   width: 100%;
@@ -67,6 +71,11 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
     background-image: url("https://images.unsplash.com/photo-1505058567159-6f2a114a1a70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80"); }
   .card .artist3 {
     background-image: url("https://images.unsplash.com/photo-1484190929067-65e7edd5a22f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); }
+  .card p {
+    color: #222;
+    font-size: 1em; }
+  .card a {
+    font-size: 0.8em; }
 
 .blog-container {
   margin-top: 50px; }
@@ -114,7 +123,10 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
 
 .product-summary {
   margin-top: 25px;
-  color: #a26000; }
+  color: #222; }
+  .product-summary span {
+    font-size: 0.8em;
+    color: #a26000; }
 
 .product-summary h4 {
   color: #75bf4c;
@@ -124,7 +136,7 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
   font-family: "Roboto", sans-serif; }
 
 .subtitle h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 100;
   color: #75bf4c; }
 

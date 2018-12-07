@@ -24,7 +24,12 @@
 }
 .product-summary {
     margin-top: 25px;
-    color: $secondary-color;
+    color: #222;
+
+    span {
+        font-size: 0.8em;
+        color: $secondary-color;
+    }
 }
 .product-summary h4 {
     color: $main-color;
@@ -34,7 +39,7 @@
     font-family: $main-type;
 }
 .subtitle h1 {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 100;
     color: $main-color;
 }
