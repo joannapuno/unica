@@ -33,21 +33,22 @@ a {
 .nav-bar {
   margin-top: 10px;
   margin-left: 30px; }
-  .nav-bar .logo-container {
-    width: 150px;
-    margin-right: 10px; }
-    .nav-bar .logo-container img {
-      width: 100%; }
-  .nav-bar .nav-menus {
+
+.logo-container {
+  width: 150px;
+  margin-right: 10px; }
+  .logo-container img {
+    width: 100%; }
+  .logo-container .nav-menus {
     width: 100%;
     background: #74bf4c; }
-    .nav-bar .nav-menus li {
+    .logo-container .nav-menus li {
       margin-right: 30px; }
-      .nav-bar .nav-menus li a {
+      .logo-container .nav-menus li a {
         color: #fff; }
-    .nav-bar .nav-menus .main-menu {
+    .logo-container .nav-menus .main-menu {
       width: 60%; }
-    .nav-bar .nav-menus .secondary-menu {
+    .logo-container .nav-menus .secondary-menu {
       width: 40%; }
 
 .hero-container {
@@ -205,3 +206,23 @@ footer {
 
 .footer-container li {
   margin-right: 20px; }
+
+@media print {
+  .product-image,
+  .card-image,
+  .blog-image,
+  .share-icons i,
+  header,
+  footer {
+    display: none; }
+  .print-header {
+    display: flex; }
+  a[href^=http]:after {
+    font-style: italic;
+    content: " < " attr(href) " > "; }
+  @page {
+    margin: 2cm; }
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0; } }
