@@ -19,3 +19,8 @@ Global site tag (gtag.js) - Google Analytics:
 
   gtag('config', 'UA-130560575-1');
 </script>
+
+
+
+MailList/Newsletter:
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"031cb1a6d424a008df74102ec","lid":"ec904ab685","uniqueMethods":true}) })</script>
