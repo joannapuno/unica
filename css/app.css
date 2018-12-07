@@ -74,7 +74,7 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
     color: #75bf4c;
     font-weight: 100; }
   .blog-container .blog-image {
-    background: url("https://images.unsplash.com/photo-1484190929067-65e7edd5a22f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    background: url("../images/cat.jpg");
     height: 200px;
     background-size: cover;
     background-position: center; }
