@@ -51,6 +51,9 @@ a {
     .logo-container .nav-menus .secondary-menu {
       width: 40%; }
 
+.print-header {
+  display: none; }
+
 .hero-container {
   margin-top: 50px;
   margin-bottom: 100px; }
