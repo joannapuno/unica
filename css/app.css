@@ -10,6 +10,9 @@ a, p, span, h1, h2, h3, h4, h5, h6, body {
 h1 {
   margin: 10px; }
 
+a {
+  color: #ff5c00; }
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
