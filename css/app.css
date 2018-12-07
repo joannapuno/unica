@@ -34,3 +34,20 @@ ul, li {
       width: 60%; }
     .nav-bar .nav-menus .secondary-menu {
       width: 40%; }
+
+.footer-container .social-icons-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20em; }
+  .footer-container .social-icons-container i {
+    color: #a26000; }
+
+.footer-container .footer-menu {
+  width: 100%;
+  background: #75bf4c; }
+  .footer-container .footer-menu a, .footer-container .footer-menu span {
+    color: #fff; }
+
+.footer-container li {
+  margin-right: 20px; }
