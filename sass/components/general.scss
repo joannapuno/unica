@@ -6,7 +6,16 @@ ul, li {
 
 a,p,span,h1,h2,h3,h4,h5,h6,body {
     font-family: $main-type;
+    
 }
+
+h1 {
+    margin:10px;
+}
+a {
+    color: $accent-color;
+}
+
   
 .wrapper {
     width: 100%;
