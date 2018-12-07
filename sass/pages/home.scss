@@ -37,9 +37,21 @@
         font-weight: 100;
     }
     .blog-image {
-        background: url('');
+        background: url('../images/cat.jpg');
         height: 200px;
         background-size: cover;
         background-position: center;
     }
+    a {
+        color: $secondary-color;
+    }
+    p {
+        margin-top: 25px;
+        line-height: 1.3em;
+        color: #444444;
+    }
+    h5 {
+        margin-top: 10px;
+    }
 }
+
