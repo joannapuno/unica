@@ -10,8 +10,7 @@ Wordpress Link -
 http://35.247.37.148/ 
 
 
-GOOGLE ANALYTICS CODE: 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+Global site tag (gtag.js) - Google Analytics:
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130560575-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
