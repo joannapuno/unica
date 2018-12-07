@@ -1,3 +1,44 @@
+
+.product-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center; }
+
+.product1 {
+  background-image: url("../product_pics/pillow.jpg"); }
+
+.product2 {
+  background-image: url("../product_pics/pots.jpg");
+  background-position: right; }
+
+.product3 {
+  background-image: url("../product_pics/generic_decor.jpg"); }
+
+.product {
+  margin-top: 70px;
+  background: #75bf4c;
+  padding: 15px 20px;
+  color: #a26000;
+  font-weight: 700;
+  box-shadow: 0px 7px 20px 4px #acacac; }
+
+.share-icons i {
+  margin-left: 10px;
+  color: #ff5c00; }
+
+.product-summary {
+  margin-top: 25px;
+  color: #a26000; }
+
+.product-summary h4 {
+  color: #ff5c00; }
+
+#small-home-decor {
+  font-family: "Roboto", sans-serif; }
+
+.subtitle h1 {
+  font-size: 4em; }
+
 /* GENERAL */
 ul, li {
   list-style: none;
