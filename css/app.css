@@ -32,6 +32,14 @@ a {
 
 .nav-bar {
   margin-top: 10px;
+  margin-left: 30px;
+  position: relative; }
+  .nav-bar .logo-container {
+    width: 150px;
+    margin-right: 10px; }
+    .nav-bar .logo-container img {
+      width: 100%; }
+  .nav-bar .nav-menus {
   margin-left: 30px; }
 
 .logo-container {
@@ -63,6 +71,63 @@ a {
   background-image: url("../images/contact-hero.jpg");
   background-size: cover;
   background-position: 50% 50%; }
+
+.mobile-menu {
+  width: 200px;
+  opacity: 0.9;
+  background: linear-gradient(354deg, #f660e9 0%, #6056c6 80%);
+  height: 60vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+  transform: translate(0px, 0px);
+  z-index: 100;
+  display: none; }
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0; }
+
+.mobile-menu li a {
+  padding: 0;
+  color: #fff;
+  width: 80%; }
+
+.mobile-menu li:hover {
+  background: #d8d8d841; }
+
+.closed {
+  transform: translate(500px, 0px); }
+
+#close-button {
+  background: transparent;
+  border: none; }
+
+#close-button i {
+  color: #fff; }
+
+#hamburger-button {
+  display: none;
+  background: transparent;
+  border: none; }
+
+#hamburger-button i {
+  color: #ff5c00; }
+
+#hamburger-button i:hover {
+  color: #3f3f3f; }
+
+@media screen and (max-width: 600px) {
+  .mobile-menu {
+    display: block; }
+  .nav-bar, .nav-menus, .main-menu, .secondary-menu {
+    display: none; }
+  #hamburger-button {
+    display: block;
+    color: #ff5c00; } }
 
 .card {
   background: #fff;
