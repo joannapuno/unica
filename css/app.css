@@ -4,8 +4,7 @@ ul, li {
   margin: 0; }
 
 a, p, span, h1, h2, h3, h4, h5, h6, body {
-  font-family: "Roboto", sans-serif;
-  margin: 10px; }
+  font-family: "Roboto", sans-serif; }
 
 h1 {
   margin: 10px; }
@@ -86,10 +85,18 @@ a {
     color: #75bf4c;
     font-weight: 100; }
   .blog-container .blog-image {
-    background: url("");
+    background: url("../images/cat.jpg");
     height: 200px;
     background-size: cover;
     background-position: center; }
+  .blog-container a {
+    color: #a26000; }
+  .blog-container p {
+    margin-top: 25px;
+    line-height: 1.3em;
+    color: #444444; }
+  .blog-container h5 {
+    margin-top: 10px; }
 
 #contact-page {
   text-align: center;
