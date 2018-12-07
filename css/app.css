@@ -12,6 +12,9 @@ h1 {
 a {
   color: #ff5c00; }
 
+body {
+  max-width: 99vw; }
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -67,16 +70,14 @@ a {
 
 .mobile-menu {
   width: 200px;
-  opacity: 0.9;
-  background: linear-gradient(354deg, #f660e9 0%, #6056c6 80%);
-  height: 60vh;
+  background: coral;
+  height: 100vh;
   position: absolute;
   top: 0;
-  right: 0;
-  transition: 0.5s;
-  transform: translate(0px, 0px);
-  z-index: 100;
-  display: none; }
+  left: 0;
+  transition: 0.4s;
+  transform: translate(0, 0);
+  z-index: 9999; }
 
 .mobile-menu ul {
   display: flex;
@@ -93,7 +94,7 @@ a {
   background: #d8d8d841; }
 
 .closed {
-  transform: translate(500px, 0px); }
+  transform: translate(-200px, 0); }
 
 #close-button {
   background: transparent;
