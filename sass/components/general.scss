@@ -3,9 +3,19 @@ ul, li {
     list-style: none;
     margin: 0; 
 }
+
+a,p,span,h1,h2,h3,h4,h5,h6,body {
+    font-family: $main-type;
+}
   
 .wrapper {
     width: 100%;
     margin: 0 auto;
     max-width: 1200px; 
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
