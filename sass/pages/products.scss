@@ -1,20 +1,5 @@
-.product-image {
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}
-.product1 {
-    background-image: url('../images/pillow.jpg');
-}
-.product2 {
-    background-image: url('../images/pots.jpg');
-    background-position: right;
-}
-.product3 {
-    background-image: url('../images/generic_decor.jpg');
-}
 .product {
-    margin-top: 70px;
+    margin-top: 20px;
     background: #fff;
     padding: 15px 20px;
     color: $main-color;
@@ -23,7 +8,16 @@
     h2 {
         font-weight: 100;
     }
+
+    a {
+        color: $main-color;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
 }
+
 .share-icons i {
     margin-left: 10px;
     color: $accent-color;
@@ -44,3 +38,25 @@
     font-weight: 100;
     color: $main-color;
 }
+
+// Product Images
+.product-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.product1 { background-image: url('../images/pillow.jpg'); }
+
+.product2 {
+    background-image: url('../images/pots.jpg');
+    background-position: right;
+}
+
+.product3 { background-image: url('../images/generic_decor.jpg'); }
+
+.img-wallart { background-image: url('../images/wall-art.jpg'); }
+.img-smhomedecor { background-image: url('../images/sm-home-decor.jpg'); }
+.img-lghomedecor { background-image: url('../images/lg-home-decor.jpg'); }
+.img-furniture { background-image: url('../images/furniture.jpg'); }
+.img-indigenous { background-image: url('../images/indigenous-art.jpg'); }
+.img-pet { background-image: url('../images/pet.jpg'); }

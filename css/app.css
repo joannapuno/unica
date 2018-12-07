@@ -3,10 +3,18 @@ ul, li {
   list-style: none;
   margin: 0; }
 
+a, p, span, h1, h2, h3, h4, h5, h6, body {
+  font-family: "Roboto", sans-serif; }
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
   max-width: 1200px; }
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center; }
 
 /* HEADER */
 /* Desktop Menu */
@@ -20,14 +28,15 @@ ul, li {
   margin-top: 10px;
   margin-left: 30px; }
   .nav-bar .logo-container {
-    width: 150px; }
+    width: 150px;
+    margin-right: 10px; }
     .nav-bar .logo-container img {
       width: 100%; }
   .nav-bar .nav-menus {
     width: 100%;
     background: #74bf4c; }
     .nav-bar .nav-menus li {
-      margin-right: 50px; }
+      margin-right: 30px; }
       .nav-bar .nav-menus li a {
         color: #fff; }
     .nav-bar .nav-menus .main-menu {
@@ -60,6 +69,34 @@ ul, li {
   font-family: "Roboto", sans-serif;
   padding: 0 150px;
   line-height: 1.2em; }
+  height: 100vh;
+  background: url(../images/pots.jpg);
+  background-size: cover; }
+
+.card {
+  background: #fff;
+  padding: 15px 20px;
+  box-shadow: 0px 1px 5px 0px #acacac; }
+  .card h2 {
+    font-weight: 100;
+    color: #75bf4c; }
+  .card .artist1 {
+    background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"); }
+  .card .artist2 {
+    background-image: url("https://images.unsplash.com/photo-1505058567159-6f2a114a1a70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80"); }
+  .card .artist3 {
+    background-image: url("https://images.unsplash.com/photo-1484190929067-65e7edd5a22f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); }
+
+.blog-container {
+  margin-top: 50px; }
+  .blog-container h1 {
+    color: #75bf4c;
+    font-weight: 100; }
+  .blog-container .blog-image {
+    background: url("https://images.unsplash.com/photo-1484190929067-65e7edd5a22f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+    height: 200px;
+    background-size: cover;
+    background-position: center; }
 
 .product-image {
   height: 200px;
@@ -77,13 +114,17 @@ ul, li {
   background-image: url("../images/generic_decor.jpg"); }
 
 .product {
-  margin-top: 70px;
+  margin-top: 20px;
   background: #fff;
   padding: 15px 20px;
   color: #75bf4c;
   box-shadow: 0px 1px 5px 0px #acacac; }
   .product h2 {
     font-weight: 100; }
+  .product a {
+    color: #75bf4c; }
+  .product a:hover {
+    text-decoration: none; }
 
 .share-icons i {
   margin-left: 10px;
@@ -105,8 +146,42 @@ ul, li {
   font-weight: 100;
   color: #75bf4c; }
 
+.product-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center; }
+
+.product1 {
+  background-image: url("../images/pillow.jpg"); }
+
+.product2 {
+  background-image: url("../images/pots.jpg");
+  background-position: right; }
+
+.product3 {
+  background-image: url("../images/generic_decor.jpg"); }
+
+.img-wallart {
+  background-image: url("../images/wall-art.jpg"); }
+
+.img-smhomedecor {
+  background-image: url("../images/sm-home-decor.jpg"); }
+
+.img-lghomedecor {
+  background-image: url("../images/lg-home-decor.jpg"); }
+
+.img-furniture {
+  background-image: url("../images/furniture.jpg"); }
+
+.img-indigenous {
+  background-image: url("../images/indigenous-art.jpg"); }
+
+.img-pet {
+  background-image: url("../images/pet.jpg"); }
+
 footer {
-  margin-top: 30px; }
+  margin-top: 70px;
+  margin-bottom: 20px; }
 
 .footer-container .social-icons-container {
   display: flex;
@@ -118,7 +193,8 @@ footer {
 
 .footer-container .footer-menu {
   width: 100%;
-  background: #75bf4c; }
+  background: #75bf4c;
+  padding: 10px; }
   .footer-container .footer-menu a, .footer-container .footer-menu span {
     color: #fff; }
 
