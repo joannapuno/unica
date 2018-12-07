@@ -22,30 +22,26 @@
 
   img {
       width: 100%;
-}
-    
-    .nav-menus {
-        width:100%;
-        background: #74bf4c;
-        
-  
-        li {
-          margin-right: 30px;
-          
-          a {
-            color: #fff;
-          }
-      }
-  
-        .main-menu {
-          width: 60%;
-      }
-      
-        .secondary-menu {
-          width:40%;
-      }
-    }
   }
+}
+
+.nav-menus {
+  width:100%;  
+  background: $main-color;
+li {
+  margin-right: 30px;
+}
+      
+a {
+  color: #fff;
+}
+.main-menu {
+  width: 60%;
+}  
+.secondary-menu {
+  width:40%;
+}
+}
 
 .print-header { display: none; }
   
