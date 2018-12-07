@@ -1,3 +1,4 @@
+
 .product-image {
   height: 200px;
   background-size: cover;
@@ -37,3 +38,57 @@
 
 .subtitle h1 {
   font-size: 4em; }
+
+/* GENERAL */
+ul, li {
+  list-style: none;
+  margin: 0; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+/* HEADER */
+/* Desktop Menu */
+.top-menu {
+  width: 40%;
+  margin-top: 20px; }
+  .top-menu .search-bar {
+    margin-left: 10px; }
+
+.nav-bar {
+  margin-top: 10px;
+  margin-left: 30px; }
+  .nav-bar .logo-container {
+    width: 150px; }
+    .nav-bar .logo-container img {
+      width: 100%; }
+  .nav-bar .nav-menus {
+    width: 100%;
+    background: #74bf4c; }
+    .nav-bar .nav-menus li {
+      margin-right: 50px; }
+      .nav-bar .nav-menus li a {
+        color: #fff; }
+    .nav-bar .nav-menus .main-menu {
+      width: 60%; }
+    .nav-bar .nav-menus .secondary-menu {
+      width: 40%; }
+
+.footer-container .social-icons-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20em; }
+  .footer-container .social-icons-container i {
+    color: #a26000; }
+
+.footer-container .footer-menu {
+  width: 100%;
+  background: #75bf4c; }
+  .footer-container .footer-menu a, .footer-container .footer-menu span {
+    color: #fff; }
+
+.footer-container li {
+  margin-right: 20px; }

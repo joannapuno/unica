@@ -1,3 +1,54 @@
-// NAV BAR
+ /* HEADER */
+  /* Desktop Menu */
+  
+  .top-menu {
+    width: 40%;
+    margin-top: 20px;
+
+    .search-bar {
+        margin-left: 10px;
+    }
+  }
+  .nav-bar {
+    margin-top: 10px;
+    margin-left: 30px;
+    
+    .logo-container {
+        width: 150px;
+
+        img {
+            width: 100%;
+        }
+    }
+    
+    .nav-menus {
+        width:100%;
+        background: #74bf4c;
+  
+        li {
+          margin-right: 50px;
+          
+          a {
+            color: #fff;
+          }
+      }
+  
+        .main-menu {
+          width: 60%;
+      }
+      
+        .secondary-menu {
+          width:40%;
+      }
+    }
+  }
+  
+
+  
 
 
+  
+  
+  
+
+   
